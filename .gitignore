@@ -1,39 +1,5 @@
-# Ignorar carpetas y archivos generados por Android Studio
+.gradle/
 .idea/
-.gradle/
 local.properties
-.DS_Store
-
-# Carpeta de construcción y sus contenidos
-/build/
-*/build/
-
-# Archivos de configuración específicos de Android Studio y Gradle
-/captures/
-/outputs/
-/.gradle/
-/gradle/
-/app/app.iml
 *.iml
-.gradle/
-/gradlew
-/gradlew.bat
-gradle.properties
-gradle-wrapper.properties
-.settings/
-.classpath
-.project
-.externalNativeBuild
-
-# Ignorar el contenido generado en res/
-res/generated/
-
-# Archivos de configuración locales
-/local.properties
-
-# Cache de dependencias
-/.caches/
-/.cxx/
-/.externalNativeBuild
-/.externalNativeBuild/
-
+/build/
